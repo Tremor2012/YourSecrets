@@ -1,3 +1,3 @@
 # YourSecrets!
-# Smla Spring MVC progect
+# Small Spring MVC project
 # author Kondrashevskyi Roman
