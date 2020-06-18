@@ -112,7 +112,7 @@ public class UserService implements UserDetailsService {
         return true;
     }
 
-    public void saveUser(User user, String username, String password1, String password2, Map<String, String> model) {
+    public void saveUser(User user, String password1, String password2, Map<String, String> model) {
 
         if (!StringUtils.isEmpty(password1) && password1.equals(password2))
             user.setPassword(passwordEncoder.encode(password1));
